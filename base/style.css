@@ -1,0 +1,166 @@
+*
+    {
+        margin: 0;
+        padding: 0;
+        font-family: consolas;
+        box-sizing: border-box;
+    }
+
+body {
+    color: black;
+    background-color: black;
+    background-image: url("./images/119.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:70rem;
+ }
+.container{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relativae;
+
+}
+.btn {
+    height: 50px;
+    width: 150px;
+    
+    margin : 10px;
+    margin-top: 450px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 80px;
+    bottom: 0px;
+
+    
+}
+.one{
+    background:-webkit-linear-gradient(0deg, transparent 50%, rgb(255, 0, 128)  50%);
+    background-size:300px 50px ;
+    border: 4px solid #00FFFF;
+    background-color:black;
+
+    
+}
+
+.one:hover{
+    background-position: 150px 0;
+    color: black;
+}
+
+.two{
+    background:-webkit-linear-gradient(0deg, transparent 50%,#FFFF00 50%);
+    background-size: 300px 50px ;
+    border: 4px solid #CCFFFF;
+    background-color:black;
+
+    
+}
+
+.two:hover{
+    background-position: -150px 0;
+    color: black;
+    
+}
+.three{
+    background:-webkit-linear-gradient( transparent 50%,rgb(4, 255, 88) 50%);
+    background-size:  300px 160px ;
+    border: 4px solid #FF66FF;
+    background-color:black;
+
+}
+
+.three:hover{
+    background-position: 150px 80px;
+    color: black;
+}
+.for{
+    background:-webkit-linear-gradient( transparent 50%,rgb(0, 238, 255) 50%);
+    background-size: 300px 160px ;
+    border: 4px solid #CC33CC;
+    background-color:black;
+
+}
+
+.for:hover{
+    background-position: 150px -80px;
+    color: black;
+
+}
+
+.st{
+
+    background:-webkit-linear-gradient( transparent 50%,rgba(240, 12, 12, 0.932)50%);
+    background-size: 300px 160px ;
+    border: 4px solid #0647f8;
+    background-color:black;
+
+
+}
+.st:hover{
+    background-position: 150px -80px;
+    color: black;
+
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 15px;
+
+  }
+
+  .text-block {
+    position: absolute;
+    bottom: 620px;
+    right: 200px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 60px;
+    text-align: center;
+   margin: 7px;
+   padding: 15px;
+
+}
+.clc{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    bottom: 630px;
+    left: 150px;
+    margin: 7px;
+   padding: 15px;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    cursor: pointer;
+    border-radius: 80px;
+    
+
+   background:-webkit-linear-gradient( transparent 50%,rgba(228, 223, 223, 0.932)50%);
+    background-size: 300px 160px ;
+    border: 4px solid #727785;
+    background-color:black;
+  }
+  
+.clc:hover{
+    background-position: 150px -80px;
+    color: black;
+
+}
